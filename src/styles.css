@@ -288,6 +288,24 @@ input {
     box-shadow: 5px 5px 0 var(--ink);
   }
 
+  .cube-stage {
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .cube-stage canvas {
+    min-height: 360px;
+    height: 52dvh !important;
+  }
+
+  .stage-badge {
+    position: static;
+    max-width: none;
+    margin: 0 14px 14px;
+    font-size: 0.82rem;
+  }
+
   .input-row {
     grid-template-columns: 1fr;
   }
